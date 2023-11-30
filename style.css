@@ -1,0 +1,102 @@
+    /* Background e Titulo */
+    
+    body { /* Corpo */
+        background-color: rgb(189, 189, 189);
+        font-family: monospace, "Monaco";
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    h1 { /* Titulo */
+        color: black;
+        margin-bottom: 20px;
+        margin-top: 50px;
+    }
+    
+    
+        /* Vaga */
+    
+    
+    .container { /* Classe (bloco abaixo do titulo) */
+        display: flex;
+        justify-content: center;
+    }
+        
+    .spot { /* Lugar posicionado */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 20px;
+    }
+        
+    .element { /* Palavra Vaga */
+        padding: 15px;
+        font-weight: bold;
+        font-size: 28px;
+    }
+    
+    
+        /* Button */
+    
+    
+    .button-style { /* Botoes e suas config */
+    
+        padding: 11px 18px;
+        border: none;
+        border-radius: 4px;
+        cursor: default;
+        font-size: 16px;
+        margin: 5px;
+        display: block;
+        width: 200px;
+        
+    }
+    
+    .button-style[data-status="ativo"] { /* Config da cor do status (Livre) */
+        background-color: green;
+        color: white;
+    }
+    
+    .button-style[data-status="inativo"] { /* Config da cor do status (Ocupado) */
+        background-color: red;
+        color: white;
+    }
+    
+        /* Cabecalho */
+    
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f2f2f2;
+    }
+    
+    header img {
+        width: 120px;
+        height: auto;
+    }
+    
+        /* Rodape */
+    
+    footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: #f2f2f2;
+    }
+    
+    footer img {
+        width: 120px;
+        height: auto;
+    }
+    
+    .vaga {
+        width: 500px; 
+        height: 500px; 
+        margin-top: 20px;
+        border-radius: 10px;
+    }
