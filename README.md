@@ -1,5 +1,6 @@
 # Estacionamento-Inteligente
-Projeto do segundo período do curso de Ciência da Computação
+Projeto do segundo período do curso de Ciência da Computação:
+
 A base do Estacionamento Inteligente reside na utilização de sensores ultrassônicos, especificamente dois sensores HC-SR04 por vaga. Estes sensores são posicionados estrategicamente para medir a distância total da vaga. Quando um veículo entra na vaga, alterando a distância medida pelos sensores, o sistema reconhece automaticamente a vaga como ocupada. Se a distância permanece inalterada, a vaga é considerada livre. Essa detecção é realizada em tempo real, proporcionando informações precisas sobre o status de cada vaga.
 
 O Arduino Uno R3 SMD CH340 atua como o cérebro do sistema, coordenando a leitura dos sensores e a transmissão dos dados. O Arduino envia o valor da distância pela porta serial, garantindo uma transmissão eficiente.
